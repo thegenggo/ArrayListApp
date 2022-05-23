@@ -1,0 +1,15 @@
+﻿<Window x:Class="ArrayListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArrayListApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="100,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Add"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Margin="250,150,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Remove"/>
+        <Button Content="Show All" HorizontalAlignment="Left" Margin="400,150,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="ShowAll"/>
+    </Grid>
+</Window>
